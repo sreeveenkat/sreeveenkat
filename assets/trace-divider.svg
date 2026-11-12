@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="70" viewBox="0 0 1200 70" role="img" aria-label="circuit trace divider">
+<defs><path id="ft" d="M0,35 L360,35 L395,12 L805,12 L840,35 L1200,35"/></defs>
+<use xlink:href="#ft" fill="none" stroke="#1f3b4d" stroke-width="2.4"/>
+<circle cx="395" cy="12" r="4" fill="#0b1117" stroke="#2ee6a6" stroke-width="1.6"/>
+<circle cx="805" cy="12" r="4" fill="#0b1117" stroke="#2ee6a6" stroke-width="1.6"/>
+<circle r="3.4" fill="#2ee6a6"><animateMotion dur="4.5s" begin="0s" repeatCount="indefinite"><mpath xlink:href="#ft"/></animateMotion></circle>
+<circle r="3.4" fill="#38bdf8"><animateMotion dur="4.5s" begin="2.2s" repeatCount="indefinite"><mpath xlink:href="#ft"/></animateMotion></circle>
+<circle r="3.4" fill="#2ee6a6"><animateMotion dur="6s" begin="1s" repeatCount="indefinite"><mpath xlink:href="#ft"/></animateMotion></circle>
+</svg>
