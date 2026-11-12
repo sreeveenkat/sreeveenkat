@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="194" viewBox="0 0 400 194" role="img" aria-label="GitHub Stats">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1117"/><stop offset="1" stop-color="#0a2430"/></linearGradient></defs>
+<rect width="400" height="194" rx="12" fill="url(#bg)" stroke="#1f3b4d"/>
+<g font-family="'JetBrains Mono','Fira Code',Consolas,'DejaVu Sans Mono',monospace">
+<circle cx="24" cy="26" r="4" fill="#2ee6a6"/>
+<text x="38" y="31" font-size="15" font-weight="700" fill="#2ee6a6">GitHub Stats</text>
+<text x="28" y="68" font-size="13" fill="#8fb3c4">Public repos</text><text x="372" y="68" font-size="15" font-weight="700" fill="#f0f6fc" text-anchor="end">7</text><line x1="28" y1="78" x2="372" y2="78" stroke="#16303d"/>
+<text x="28" y="98" font-size="13" fill="#8fb3c4">Total stars</text><text x="372" y="98" font-size="15" font-weight="700" fill="#f0f6fc" text-anchor="end">1</text><line x1="28" y1="108" x2="372" y2="108" stroke="#16303d"/>
+<text x="28" y="128" font-size="13" fill="#8fb3c4">Followers</text><text x="372" y="128" font-size="15" font-weight="700" fill="#f0f6fc" text-anchor="end">4</text><line x1="28" y1="138" x2="372" y2="138" stroke="#16303d"/>
+<text x="28" y="158" font-size="13" fill="#8fb3c4">Public commits</text><text x="372" y="158" font-size="15" font-weight="700" fill="#f0f6fc" text-anchor="end">168</text><line x1="28" y1="168" x2="372" y2="168" stroke="#16303d"/>
+</g></svg>

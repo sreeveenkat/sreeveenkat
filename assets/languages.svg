@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="176" viewBox="0 0 400 176" role="img" aria-label="Top Languages">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1117"/><stop offset="1" stop-color="#0a2430"/></linearGradient></defs>
+<rect width="400" height="176" rx="12" fill="url(#bg)" stroke="#1f3b4d"/>
+<g font-family="'JetBrains Mono','Fira Code',Consolas,'DejaVu Sans Mono',monospace">
+<circle cx="24" cy="26" r="4" fill="#2ee6a6"/>
+<text x="38" y="31" font-size="15" font-weight="700" fill="#2ee6a6">Top Languages</text>
+<rect x="28.0" y="52" width="151.5" height="10" rx="2" fill="#2ee6a6"/><rect x="181.5" y="52" width="86.3" height="10" rx="2" fill="#38bdf8"/><rect x="269.9" y="52" width="40.4" height="10" rx="2" fill="#a78bfa"/><rect x="312.3" y="52" width="24.1" height="10" rx="2" fill="#f59e0b"/><rect x="338.4" y="52" width="17.0" height="10" rx="2" fill="#ef4444"/><rect x="357.4" y="52" width="10.3" height="10" rx="2" fill="#8fb3c4"/>
+<circle cx="33" cy="88" r="5" fill="#2ee6a6"/><text x="44" y="92" font-size="13" fill="#c9d4dc">Python</text><text x="186" y="92" font-size="12" fill="#8fb3c4" text-anchor="end">44.6%</text>
+<circle cx="209" cy="88" r="5" fill="#38bdf8"/><text x="220" y="92" font-size="13" fill="#c9d4dc">Verilog</text><text x="362" y="92" font-size="12" fill="#8fb3c4" text-anchor="end">25.7%</text>
+<circle cx="33" cy="114" r="5" fill="#a78bfa"/><text x="44" y="118" font-size="13" fill="#c9d4dc">Tcl</text><text x="186" y="118" font-size="12" fill="#8fb3c4" text-anchor="end">12.3%</text>
+<circle cx="209" cy="114" r="5" fill="#f59e0b"/><text x="220" y="118" font-size="13" fill="#c9d4dc">C</text><text x="362" y="118" font-size="12" fill="#8fb3c4" text-anchor="end">7.6%</text>
+<circle cx="33" cy="140" r="5" fill="#ef4444"/><text x="44" y="144" font-size="13" fill="#c9d4dc">Shell</text><text x="186" y="144" font-size="12" fill="#8fb3c4" text-anchor="end">5.5%</text>
+<circle cx="209" cy="140" r="5" fill="#8fb3c4"/><text x="220" y="144" font-size="13" fill="#c9d4dc">SystemVerilog</text><text x="362" y="144" font-size="12" fill="#8fb3c4" text-anchor="end">3.6%</text>
+</g></svg>

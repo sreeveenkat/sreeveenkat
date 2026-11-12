@@ -1,13 +1,14 @@
 <div align="center">
 
-<img src="assets/chip-banner.svg" alt="Eluva Sreevenkat - ECE, RTL design, FPGA, verification" width="100%"/>
+<img src="assets/chip-banner.svg" alt="Eluva Sreevenkat - ECE, ASIC design, RTL, verification, FPGA" width="100%"/>
 
 <a href="https://readme-typing-svg.demolab.com">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3200&pause=900&color=2EE6A6&center=true&vCenter=true&width=720&lines=Designing+RTL+in+Verilog+%26+SystemVerilog;Verifying+with+UVM+testbenches;Building+FPGA+accelerators;From+spec+to+bitstream" alt="Typing animation"/>
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3200&pause=900&color=2EE6A6&center=true&vCenter=true&width=720&lines=ASIC+design%3A+from+RTL+to+GDSII;Designing+RTL+in+Verilog+%26+SystemVerilog;Verifying+with+UVM+testbenches;Building+FPGA+accelerators;From+spec+to+silicon" alt="Typing animation"/>
 </a>
 
 <br/>
 
+![ASIC](https://img.shields.io/badge/ASIC%20Design-f59e0b?style=for-the-badge&labelColor=0b1117)
 ![Verilog](https://img.shields.io/badge/Verilog-2ee6a6?style=for-the-badge&labelColor=0b1117)
 ![SystemVerilog](https://img.shields.io/badge/SystemVerilog-38bdf8?style=for-the-badge&labelColor=0b1117)
 ![UVM](https://img.shields.io/badge/UVM-a78bfa?style=for-the-badge&labelColor=0b1117)
@@ -33,10 +34,11 @@ module eluva_sreevenkat (
 endmodule
 ```
 
-- 🔬 **ECE engineer** who likes working close to the hardware: RTL, microarchitecture and verification
+- 🔬 **ECE engineer** aiming at **ASIC design**: RTL, microarchitecture, verification and the path down to silicon
 - 🧠 Building **processors, FIFOs and ALUs** from scratch, then breaking them with testbenches
 - ⚡ Working on **FPGA accelerators** for image and neural-network workloads
-- 🧮 Exploring **posit arithmetic** and low-precision MAC units for efficient inference
+- 🧮 Exploring **posit arithmetic** and low-precision MAC units, aimed at both FPGA and ASIC implementation
+- 📐 Learning the **RTL-to-GDSII flow**: synthesis, static timing analysis, and power, performance and area (PPA) trade-offs
 - 🌱 Learning more **UVM**, constrained-random testing and coverage-driven verification
 
 ---
@@ -45,6 +47,7 @@ endmodule
 
 | Domain | Stack |
 | :-- | :-- |
+| **ASIC design** | ![RTL to GDSII](https://img.shields.io/badge/-RTL%20to%20GDSII-f59e0b?style=flat-square) ![Synthesis](https://img.shields.io/badge/-Synthesis-f59e0b?style=flat-square) ![STA](https://img.shields.io/badge/-Static%20Timing%20Analysis-f59e0b?style=flat-square) ![PPA](https://img.shields.io/badge/-PPA%20Optimization-f59e0b?style=flat-square) |
 | **HDL** | ![Verilog](https://img.shields.io/badge/-Verilog-2ee6a6?style=flat-square) ![SystemVerilog](https://img.shields.io/badge/-SystemVerilog-38bdf8?style=flat-square) |
 | **Verification** | ![UVM](https://img.shields.io/badge/-UVM-a78bfa?style=flat-square) ![Testbenches](https://img.shields.io/badge/-Self--checking%20TBs-a78bfa?style=flat-square) |
 | **FPGA / EDA** | ![Vivado](https://img.shields.io/badge/-Vivado-ef4444?style=flat-square&logo=xilinx&logoColor=white) ![Vitis HLS](https://img.shields.io/badge/-Vitis%20HLS-ef4444?style=flat-square&logo=xilinx&logoColor=white) |
@@ -98,7 +101,7 @@ endmodule
 
 ## `> design_flow`
 
-How I take an idea from spec to silicon-ready:
+How I take an idea from spec to a working FPGA design or an ASIC layout:
 
 ```mermaid
 flowchart LR
@@ -106,15 +109,19 @@ flowchart LR
     B --> C{Simulate<br/>and verify}
     C -- bugs --> B
     C -- coverage met --> D[Synthesis]
-    D --> E[Implementation<br/>P&R + timing]
-    E --> F([Bitstream<br/>on FPGA])
+    D --> E1[FPGA<br/>P&R + timing]
+    E1 --> F1([Bitstream])
+    D --> E2[ASIC<br/>floorplan, P&R, STA]
+    E2 --> F2([GDSII])
 
     style A fill:#0b1117,stroke:#2ee6a6,color:#fff
     style B fill:#0b1117,stroke:#38bdf8,color:#fff
     style C fill:#0b1117,stroke:#a78bfa,color:#fff
     style D fill:#0b1117,stroke:#38bdf8,color:#fff
-    style E fill:#0b1117,stroke:#38bdf8,color:#fff
-    style F fill:#0b1117,stroke:#2ee6a6,color:#fff
+    style E1 fill:#0b1117,stroke:#38bdf8,color:#fff
+    style E2 fill:#0b1117,stroke:#f59e0b,color:#fff
+    style F1 fill:#0b1117,stroke:#2ee6a6,color:#fff
+    style F2 fill:#0b1117,stroke:#f59e0b,color:#fff
 ```
 
 ---
@@ -123,8 +130,8 @@ flowchart LR
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=sreeveenkat&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0b1117&title_color=2ee6a6&icon_color=38bdf8" alt="GitHub stats"/>
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sreeveenkat&layout=compact&theme=tokyonight&hide_border=true&bg_color=0b1117&title_color=2ee6a6" alt="Top languages"/>
+<img src="assets/stats.svg" alt="GitHub stats" height="200"/>
+<img src="assets/languages.svg" alt="Top languages" height="200"/>
 
 </div>
 
@@ -138,6 +145,6 @@ flowchart LR
 
 <img src="assets/trace-divider.svg" alt="circuit trace divider" width="100%"/>
 
-<sub><code>// open to collaborating on RTL, verification and FPGA projects</code></sub>
+<sub><code>// open to collaborating on ASIC, RTL, verification and FPGA projects</code></sub>
 
 </div>
