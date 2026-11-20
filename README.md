@@ -61,9 +61,9 @@ endmodule
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>🖼️ FPGA Image Super-Resolution Accelerator</h3>
-      Verilog INT8 CNN accelerator on a Zynq-7020: 960x540 to 1080p at 45.2 fps. Code private for now.<br/><br/>
-      <img src="https://img.shields.io/badge/Verilog-2ee6a6?style=flat-square"/>
+      <h3>🖼️ <a href="https://github.com/sreeveenkat/FPGA-Image-Super-Resolution-Accelerator">FPGA Image Super-Resolution Accelerator</a></h3>
+      Hardware acceleration of image super-resolution on FPGA.<br/><br/>
+      <img src="https://img.shields.io/badge/Python-facc15?style=flat-square&logo=python&logoColor=black"/>
     </td>
     <td width="50%" valign="top">
       <h3>🧪 <a href="https://github.com/sreeveenkat/Sync-FIFO-UVM-Verification">Sync FIFO - UVM Verification</a></h3>
