@@ -85,7 +85,7 @@ endmodule
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>🛡️ <a href="https://github.com/sreeveenkat/Fault-Tolarent_alu-16bit">Fault-Tolerant 16-bit ALU</a></h3>
+      <h3>🛡️ <a href="https://github.com/sreeveenkat/Fault-Tolerant-ALU-16bit">Fault-Tolerant 16-bit ALU</a></h3>
       16-bit ALU designed with fault tolerance in mind.<br/><br/>
       <img src="https://img.shields.io/badge/Verilog-2ee6a6?style=flat-square"/>
     </td>
